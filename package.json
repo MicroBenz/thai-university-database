@@ -1,0 +1,15 @@
+{
+  "name": "thai-university-database",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/MicroBenz/thai-university-database.git",
+  "author": "Tananan Tangthanachaikul <microbenz.prob@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "puppeteer": "^1.0.0"
+  }
+}

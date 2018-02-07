@@ -39,4 +39,4 @@ node read_mua.js
 ## TODO
 - [x] ไฟล์ database แบบ JSON
 - [ ] ไฟล์ database แบบ CSV
-- [ ] ลองใช้ datasource จากที่อื่นนอกจาก wikipedia
+- [x] ลองใช้ datasource จากที่อื่นนอกจาก wikipedia

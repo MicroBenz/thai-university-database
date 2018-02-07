@@ -24,6 +24,18 @@ npm run start
 
 ผลลัพธ์จะอยู่ในโฟลเดอร์ `dist`
 
+## universities_with_mua.json
+
+บางมหาวิทยาลัยที่ไม่มีข้อมูลใน Wikipedia แต่มีในรายการของ [สกอ.](http://www.mua.go.th/) ข้อมูลเหล่านี้จะไม่ระบุรหัสของมหาวิทยาลัยเป็นภาษาอังกฤษ (field `enCode`)
+
+ท่านสามารถใช้ไฟล์ `universities_with_mua.json` ได้เลย หรือหากท่านต้องการปรับปรุงข้อมูลในไฟล์นั้น ให้ท่าน download ไฟล์ [สถาบันอุดมศึกษาในสังกัด ในเว็บไซต์ สกอ.](http://www.mua.go.th/Department.html) ลงใน directory นี้ แล้วสั่ง
+
+```
+node read_mua.js
+```
+
+เพื่อสั่งสร้างใหม่ได้
+
 ## TODO
 - [x] ไฟล์ database แบบ JSON
 - [ ] ไฟล์ database แบบ CSV

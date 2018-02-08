@@ -56,8 +56,12 @@ async function getDataFromBrowser(path) {
     const allTables = await getDataFromBrowser(webPath);
     const res = generateTableData(allTables);
     writeFileSync(
-      join(__dirname, './dist/universities.json'),
+      join(__dirname, './dist/universities-pretty.json'),
       JSON.stringify(res, null, 4)
+    );
+    writeFileSync(
+      join(__dirname, './dist/universities.json'),
+      JSON.stringify(res)
     );
     console.log('Write file successful');
   } catch (e) {

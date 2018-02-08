@@ -10,6 +10,9 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "excel": "^0.1.7",
+    "is-empty": "^1.2.0",
+    "node-fetch": "^2.0.0",
     "puppeteer": "^1.0.0"
   }
 }
